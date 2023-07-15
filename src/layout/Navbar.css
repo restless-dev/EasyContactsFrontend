@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&family=Saira&family=Saira+Condensed:wght@400;600&display=swap');
+
+#navbar{
+    background-image: radial-gradient(rgb(85, 226, 160), rgb(106, 170, 140))
+}
+.navbar-brand{
+    font-family: 'Saira', sans-serif;
+    font: 2.6em 'Saira';
+    padding: 0;
+    margin: 0;
+    width: 3em;
+    height: 60px;
+}
+#btn-add{
+    transition: 0.4s ease;
+    height: 50px;
+    padding: 9px 11px 10px 10px;    
+}
+.git-icon{
+    transition: 0.8s ease;
+    color: white;
+    height: 40px;
+    width: 45px;
+    background-color: rgb(80, 221, 155);
+    border-radius: 50px;
+    border: solid 2px white;
+    padding: 2px 0px 2px 0px;
+    position: relative;
+    left: 110%;
+}
+.git-icon:hover{
+    color: rgb(0, 255, 157);
+    border: solid 2px rgb(0, 255, 157);
+    border-radius: 10px;
+    background-color:rgb(43, 47, 51);
+
+}
+.main-icon{
+    position: relative;
+    z-index: 0;
+    top: 50%;
+    opacity: 30%;
+    right: 110%;
+    height: 70px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+}
+.main-text{
+    position: relative;
+    z-index: 1;
+    bottom: 30%;
+}
+.add-main-text{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+}
+.mx-1{
+    height: 18px;
+}

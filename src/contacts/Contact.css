@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&family=Saira&family=Saira+Condensed:wght@400;600&display=swap');
+
+.view-row{
+    margin: 0;
+    position: relative;
+    bottom: 20px;
+}
+
+.main-div{
+    border: 1px solid rgb(85, 226, 160);
+    border-radius: 10px;
+    background-image: radial-gradient(rgb(85, 226, 160), rgb(106, 170, 140));
+    position: relative;
+}
+
+.main-title{
+    color: white;
+    font-family: 'Saira', sans-serif;
+    font-size: 2.1em !important;
+}
+.card-header{
+    border: 0px;
+}
+.card-title{
+    font-family: 'Saira', sans-serif;
+    color: white;
+    font-size: 1.4em;
+}
+.title-icon{
+    height: 25%;
+    width: 25%;
+    color: white;
+}
+.info-div{
+    border-radius: 10px;
+    margin: 0px 25px 0px 25px;
+    font-family: 'News Cycle', sans-serif;
+}
+.card{
+    background-color: rgb(33, 37, 41);
+    border: 1px solid rgb(85, 226, 160);
+    border-radius: 15px;
+}
+.name-text:hover{
+    font-size: 1.3em;
+    color: rgb(85, 226, 160);
+    margin: 0px 10px 0px 10px;
+}
+.number-text:hover{
+    font-size: 1.3em;
+    color: rgb(85, 226, 160);
+    margin: 0px 10px 0px 10px;
+}
+.form-label{
+    color: white;
+    font-family: 'Saira', sans-serif;
+    font-size: 1.2em;
+}
+.form-control{
+    color: white;
+    background-color: rgb(33, 37, 41);
+    border: 1px solid rgb(85, 226, 160);
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.1em;
+    transition: 0.4s ease;
+}
+.form-control::placeholder{
+    color: gray;
+}
+.form-control:focus{
+    background-color: white;
+    border: 1px solid rgb(33, 37, 41);
+}
+.email-div{
+    margin-bottom: 30px;
+}
+.email-div:hover{
+    font-size: 1.3em;
+    color: rgb(85, 226, 160);
+    margin: 0px 10px 30px 10px;
+}
+.text-conf{
+    font-size: 1.3em;
+    color: black;
+    transition: 0.4s ease;
+    border: 1px solid rgb(85, 226, 160);
+}
+.back-btn{
+    font-family: 'Saira', sans-serif;
+    font-size: 1.2em;
+    border: 2px solid rgb(255, 255, 255) !important;
+    color: white;
+    transition: 0.8s ease;
+    position: relative;
+    bottom: -3%;
+}
+.back-btn:hover{
+    background-image: linear-gradient(white, white);
+    border: 2px solid rgb(255, 255, 255) !important;
+    color: black;
+}
+.submit-btn{
+    background-image: linear-gradient(rgb(82, 109, 197),rgb(75, 110, 223));
+    border: 1px solid rgb(82, 109, 197) !important;
+    color: white;
+    transition: 0.8s ease;
+    font-family: 'Saira', sans-serif;
+}
+.submit-btn:hover{
+    background-image: linear-gradient(white, white);
+    border: 1px solid rgb(255, 255, 255) !important;
+    color: black;
+}
+.cancel-btn{
+    background-image: linear-gradient(rgb(204, 21, 21), rgb(224, 0, 0));
+    border: 1px solid rgb(204, 21, 21) !important;
+    transition: 0.8s ease;
+    color: white;
+    font-family: 'Saira', sans-serif;
+}
+.cancel-btn:hover{
+    background-image: linear-gradient(white, white);
+    border: 1px solid rgb(255, 255, 255) !important;
+    color: black;
+}

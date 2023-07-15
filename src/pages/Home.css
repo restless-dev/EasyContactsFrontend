@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&family=Saira&family=Saira+Condensed:wght@400;600&display=swap');
+
+.table-text{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.1em;
+}
+
+.table-icons{
+    margin: 0px 10px 0px 0px !important;
+}
+
+.all-col{
+    font-family: 'Saira', sans-serif;
+    font-size: 1.4em;
+}
+
+.all-btn{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+}
+
+.view-btn{
+    background-image: linear-gradient(rgb(106, 170, 140), rgb(85, 226, 160));
+    border: 1px solid rgb(85, 226, 160) !important;
+    transition: 0.8s ease;
+}
+
+.view-btn:hover{
+    background-image: linear-gradient(white, white);
+    border: 1px solid rgb(255, 255, 255) !important;
+    color: black;
+}
+
+.edit-btn{
+    background-image: linear-gradient(rgb(82, 109, 197),rgb(75, 110, 223));
+    border: 1px solid rgb(82, 109, 197) !important;
+    color: white;
+    transition: 0.8s ease;
+}
+.edit-btn:hover{
+    background-image: linear-gradient(white, white);
+    border: 1px solid rgb(255, 255, 255) !important;
+    color: black;
+}
+
+.delete-btn{
+    background-image: linear-gradient(rgb(204, 21, 21), rgb(224, 0, 0));
+    border: 1px solid rgb(204, 21, 21) !important;
+    transition: 0.8s ease;
+}
+
+.delete-btn:hover{
+    background-image: linear-gradient(white, white);
+    border: 1px solid rgb(255, 255, 255) !important;
+    color: black;
+}
+
+.container{
+    width: 150%;
+}
+
+.head-icon{
+    height: 27px;
+    padding: 5px 0px 0px 0px;
+    margin: 0;
+}
+
+.main-table{
+    border: 1px rgb(85, 226, 160);
+    border-style: ridge;
+    background-color: rgb(96, 176, 255) !important;
+}
+.contact-table{
+    transition: 0.5s ease;
+}
+.contact-table:hover{
+}
