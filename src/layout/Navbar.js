@@ -15,7 +15,7 @@ export default function Navbar() {
             <span className='main-text'>EasyContacts</span>
             <FontAwesomeIcon icon={faUsers} className="main-icon" />
           </Link>
-          <a href="https://github.com/restless-dev" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/restless-dev/EasyContactsBackend" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="git-icon"/>
           </a>  
           <Link className="btn btn-outline-light" id="btn-add" to="/add-contact">
